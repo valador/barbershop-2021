@@ -1,24 +1,11 @@
 {
-  "name": "mishka-17",
-  "version": "17.0.0",
+  "name": "barbershop-2021",
+  "version": "0.0.1",
   "private": true,
-  "description": "Личный проект «Мишка» от HTML Academy",
+  "description": "Личный проект «Барбершоп Бородинский» от HTML Academy",
   "devDependencies": {
     "@babel/preset-env": "^7.6.2",
-    "@htmlacademy/editorconfig-cli": "1.x",
     "stylelint": "10.1.x",
-    "stylelint-config-htmlacademy": "^0.1.4"
-  },
-  "scripts": {
-    "dev": "gulp dev",
-    "watch": "gulp watch",
-    "build": "gulp build"
-  },
-  "editorconfig-cli": [
-    "*.json",
-    "source/*.html"
-  ],
-  "dependencies": {
     "autoprefixer": "^9.6.1",
     "cssnano": "^4.1.10",
     "del": "^5.1.0",
@@ -34,19 +21,28 @@
     "gulp-webserver": "^0.9.1",
     "path": "^0.12.7"
   },
+  "scripts": {
+    "dev": "gulp dev",
+    "watch": "gulp watch",
+    "build": "gulp build"
+  },
+  "editorconfig-cli": [
+    "*.json",
+    "source/*.html"
+  ],
   "main": "./pub/index.html",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valador/mishka.git"
+    "url": "git+https://github.com/valador/barbershop-2021.git"
   },
   "keywords": [
     "html",
     "css"
   ],
-  "author": "slayer",
+  "author": "Valador",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/valador/mishka/issues"
+    "url": "https://github.com/valador/barbershop-2021/issues"
   },
-  "homepage": "https://github.com/valador/mishka#readme"
+  "homepage": "https://github.com/valador/barbershop-2021#readme"
 }
